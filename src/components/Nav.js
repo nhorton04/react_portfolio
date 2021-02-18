@@ -24,7 +24,7 @@ const Nav = () => {
     <Container>
       <Navbar active={show}>
         <Logo active={show}>
-          <Link href='#about'>{show ? '< CC >' : '< Nick Horton >'}</Link>
+          <Link href='#about'>{show ? '< NH >' : '< Nick Horton >'}</Link>
         </Logo>
         <StyledLink active={show}>
           <Link nav href='#projects'>
@@ -36,7 +36,7 @@ const Nav = () => {
           <Resume active={show}>
             <FileText size={28} color={show ? 'black' : 'white'} />
             <Link
-              href='/images/Nick-Horton-Resume-Online.pdf'
+              href='https://resume.creddle.io/resume/av3q1vh3uuf'
               alt='Resume'
               target='_blank'
               rel='noopener noreferrer'
